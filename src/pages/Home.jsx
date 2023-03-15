@@ -1,8 +1,13 @@
-import React from 'react'
+import React, {useEffect, useState} from 'react'
+import UserResults from '../components/users/UserResults'
 
 function Home() {
   return (
-    <div>Home</div>
+    <div>
+      {/* search component */}
+      <UserResults />
+   
+    </div>
   )
 }
 
