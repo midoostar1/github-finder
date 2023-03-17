@@ -1,10 +1,12 @@
 import React, {useEffect, useState} from 'react'
 import UserResults from '../components/users/UserResults'
+import UserSearch from '../components/users/UserSearch'
 
 function Home() {
   return (
     <div>
-      {/* search component */}
+      
+      <UserSearch />
       <UserResults />
    
     </div>
